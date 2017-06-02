@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script src="app--:v--.js"></script>
+    <script src="objetosArreglos--:v--.js"></script>
+    <script src="interfaces--:v--.js"></script>
+    <script src="poo.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+    // set our baseURL reference path
+      SystemJS.config({
+        baseURL: '/',
+        defaultJSExtensions: true
+      });
+      // load /js/main.js
+      SystemJS.import('poo.js');
+    </script>
+  </body>
+</html>
